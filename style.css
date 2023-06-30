@@ -1,0 +1,223 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    max-width: 1068px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1a1e21;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .menu {
+    list-style: none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #fe8f44;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fe8f44;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff661b;
+  }
+  
+  /* Featured posts section */
+  .featured-posts {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  .featured-posts h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .post-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    font-size: 1rem;
+  }
+  
+  /* Latest posts section */
+  .latest-posts {
+    padding: 80px 0;
+  }
+  
+  .latest-posts h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .post-list {
+    list-style: none;
+  }
+  
+  .post-list li {
+    margin-bottom: 30px;
+  }
+  
+  .post-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .post-list h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .post-list p {
+    font-size: 1rem;
+  }
+  
+  /* Subscribe section */
+  .subscribe {
+    background-color: #fe8f44;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  .subscribe h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .subscribe-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    outline: none;
+  }
+  
+  .subscribe-form button {
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    background-color: #ff661b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #fe8f44;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1e21;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+ .option {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.option img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .option img {
+        width: 100%;
+        height: auto;
+    }
+}
+

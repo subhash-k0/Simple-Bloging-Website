@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <form method="post" action="phpsubmit.php"></form>
+  <title>My Blog</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">My Blog</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="option">
+    <img src="banner-bg.jpg" alt="Image 1">
+    <h2>Option 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <a href="#">Learn More</a>
+</div>
+
+
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to My Blog</h2>
+      <p>Discover amazing articles and insights written by experts.</p>
+      <a href="explore.html" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <section class="featured-posts">
+    <div class="container">
+      <h3>Featured Posts</h3>
+      <div class="post-grid">
+        <!-- Featured posts will be dynamically generated using PHP -->
+      </div>
+    </div>
+  </section>
+
+  <section class="latest-posts">
+    <div class="container">
+      <h3>Latest Posts</h3>
+      <div class="post-list">
+        <!-- Latest posts will be dynamically generated using PHP -->
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="container">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form action="#" method="post" class="subscribe-form">
+        <input type="email" name="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
